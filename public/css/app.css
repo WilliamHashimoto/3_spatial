@@ -6271,6 +6271,61 @@ readers do not read off random characters that represent icons */
   background-color: #323037;
 }
 
+.mauris {
+  margin: 80px 150px;
+}
+.mauris .maurisTitle h1 {
+  margin: 0;
+}
+.mauris .maurisTitle h2 {
+  margin: 0;
+  color: #00000050;
+}
+.mauris .cardS {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+}
+.mauris .cardS .card {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mauris .cardS .card img {
+  margin: 20px;
+  border: 8px solid #e3e3e3;
+  border-radius: 50%;
+  width: 150px;
+}
+.mauris .cardS .card1 {
+  text-align: right;
+}
+.mauris .cardS .card1 .text h4 {
+  margin: 0;
+}
+.mauris .cardS .card1 .text h5 {
+  margin: 10px 0;
+  color: #00000050;
+}
+.mauris .cardS .card1 .text p {
+  margin: 0;
+  color: #00000050;
+  font-size: 15px;
+}
+.mauris .cardS .card2 .text h4 {
+  margin: 0;
+}
+.mauris .cardS .card2 .text h5 {
+  margin: 10px 0;
+  color: #00000050;
+}
+.mauris .cardS .card2 .text p {
+  margin: 0;
+  color: #00000050;
+  font-size: 15px;
+}
+
 body {
   margin: 0;
 }
