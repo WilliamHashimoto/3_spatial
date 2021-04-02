@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;600&display=swap");
+body {
+  font-family: "Mukta", sans-serif;
+}
+
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6115,6 +6120,97 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+
+.headerBG {
+  background-image: url("../../../public/images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+.headerBG .layer {
+  background-color: #0000008a;
+  width: 100%;
+  height: 100%;
+}
+.headerBG .layer .headerTop {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.headerBG .layer .headerTop .navBarR {
+  margin: 20px;
+}
+.headerBG .layer .headerTop .navBarR span {
+  color: #ffffff71;
+}
+.headerBG .layer .headerTop div .navBarL {
+  margin: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+.headerBG .layer .headerTop div .navBarL li {
+  display: inline;
+  margin: 15px;
+  color: #ffffff71;
+}
+.headerBG .layer .headerBottom {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+.headerBG .layer .headerBottom .center {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.headerBG .layer .headerBottom .center h1 {
+  margin: 10px;
+  font-size: 50px;
+}
+.headerBG .layer .headerBottom .center h2 {
+  margin: 0;
+  line-height: 40px;
+  color: #ffffff71;
+}
+.headerBG .layer .headerBottom .center button {
+  margin: 30px;
+  background-color: #f32853;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 28px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 10px 15px;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+h5 {
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=app.css.map */
