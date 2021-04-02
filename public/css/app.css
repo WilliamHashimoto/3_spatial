@@ -6183,6 +6183,8 @@ readers do not read off random characters that represent icons */
   color: white;
   border-radius: 5px;
   border: none;
+  padding: 20px 35px;
+  font-size: 18px;
 }
 
 .maecenas {
@@ -6211,6 +6213,62 @@ readers do not read off random characters that represent icons */
 .maecenas .container .p2 {
   color: #00000077;
   font-size: 15px;
+}
+
+.fusce {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.fusce .fusceT {
+  margin: 40px;
+  margin: 80px;
+}
+.fusce .fusceT h1 {
+  font-size: 47px;
+  margin: 0;
+}
+.fusce .fusceT h2 {
+  color: #00000050;
+  margin: 0;
+}
+.fusce .fusceCards {
+  display: flex;
+  text-align: center;
+}
+.fusce .fusceCards .fusceCards1 {
+  background-color: white;
+  margin: 15px;
+  box-shadow: 0 0 2px;
+}
+.fusce .fusceCards .fusceCards1 img {
+  width: 500px;
+}
+.fusce .fusceCards .fusceCards1 h3 {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.fusce .btn {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.fusce .btn button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  width: 210px;
+  height: 60px;
+  font-size: 18px;
+}
+.fusce .btn .btn1 {
+  background-color: #f32853;
+}
+.fusce .btn .btn2 {
+  background-color: #323037;
 }
 
 body {
