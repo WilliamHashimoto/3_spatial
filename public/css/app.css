@@ -6126,13 +6126,15 @@ readers do not read off random characters that represent icons */
   background-image: url("../../../public/images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
   color: white;
   text-align: center;
 }
 .headerBG .layer {
   background-color: #0000008a;
   width: 100%;
-  height: 85vh;
+  height: 100%;
 }
 .headerBG .layer .headerTop {
   width: 100%;
@@ -6399,6 +6401,58 @@ readers do not read off random characters that represent icons */
   border-left: 1px solid #aaaaaa;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .fusceCards1 {
+    width: 400px;
+  }
+  .fusceCards1 img {
+    max-width: 100%;
+  }
+
+  .mauris .cardS .card .text h4 {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .fusceCards1 {
+    width: 250px;
+  }
+  .fusceCards1 img {
+    max-width: 100%;
+  }
+
+  .mauris .cardS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mauris .cardS .card {
+    width: 100%;
+  }
+  .mauris .cardS .card .text h4 {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .fusceCards1 {
+    width: 250px;
+  }
+  .fusceCards1 img {
+    max-width: 100%;
+  }
+
+  .mauris .cardS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mauris .cardS .card {
+    width: 100%;
+  }
+  .mauris .cardS .card .text h4 {
+    margin-top: 50px;
+  }
+}
 body {
   margin: 0;
 }
