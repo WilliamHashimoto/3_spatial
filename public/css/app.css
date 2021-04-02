@@ -6326,6 +6326,37 @@ readers do not read off random characters that represent icons */
   font-size: 15px;
 }
 
+.aenean {
+  background-image: url("../../../public/images/banner.jpg");
+  background-position: center center;
+  height: 380px;
+}
+.aenean .layer2 {
+  background-color: #2a2931a1;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aenean .layer2 h1 {
+  margin: 0;
+}
+.aenean .layer2 h2 {
+  margin: 0;
+  color: #b4b4b488;
+}
+.aenean .layer2 button {
+  margin: 30px;
+  color: white;
+  background-color: #f32853;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 35px;
+  font-size: 18px;
+}
+
 body {
   margin: 0;
 }
