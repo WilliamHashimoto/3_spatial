@@ -6387,9 +6387,6 @@ readers do not read off random characters that represent icons */
   margin: 75px;
   color: #aaaaaa;
 }
-.footerMain .footerout i {
-  margin: 0 40px;
-}
 .footerMain .footerout p {
   padding: 0px 20px;
   display: inline;
@@ -6433,14 +6430,47 @@ readers do not read off random characters that represent icons */
     margin-top: 50px;
   }
 }
-@media screen and (max-width: 767px) {
-  .fusceCards1 {
-    width: 250px;
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .headerBG .layer .headerTop {
+    flex-direction: column;
   }
-  .fusceCards1 img {
-    max-width: 100%;
+  .headerBG .layer .headerTop .navBarR {
+    margin: 20px;
+  }
+  .headerBG .layer .headerTop div .navBarL {
+    margin: 20px;
+  }
+  .headerBG .layer .headerBottom .center {
+    width: 80%;
+    margin: 50px 20px 50px40px;
   }
 
+  .maecenas {
+    flex-direction: column;
+  }
+  .maecenas .container {
+    width: 100%;
+  }
+
+  .fusce .fusceCards {
+    flex-direction: column;
+  }
+  .fusce .fusceCards .fusceCards1 {
+    width: 250px;
+  }
+  .fusce .fusceCards .fusceCards1 img {
+    max-width: 100%;
+  }
+  .fusce .btn button {
+    width: 150px;
+  }
+
+  .mauris {
+    margin: 50px 50px;
+  }
+  .mauris .maurisTitle {
+    text-align: center;
+  }
   .mauris .cardS {
     display: flex;
     flex-direction: column;
@@ -6448,9 +6478,127 @@ readers do not read off random characters that represent icons */
   }
   .mauris .cardS .card {
     width: 100%;
+    flex-direction: column;
   }
   .mauris .cardS .card .text h4 {
-    margin-top: 50px;
+    margin-top: 20px;
+  }
+  .mauris .cardS .card1 .text {
+    order: 1;
+  }
+
+  .aenean .layer2 h1 {
+    margin: 0 20px;
+  }
+
+  .footerMain .footerout {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerMain .footerout p {
+    margin: 5px;
+    display: block;
+  }
+  .footerMain .footerout .b1 {
+    border-right: none;
+  }
+  .footerMain .footerout .b2 {
+    border: none;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 424px) {
+  .headerBG {
+    height: 600px;
+  }
+  .headerBG .layer .headerTop {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .headerBG .layer .headerTop .navBarR {
+    margin: 10px auto 0px auto;
+  }
+  .headerBG .layer .headerTop div .navBarL {
+    margin: 5px auto 0px auto;
+  }
+  .headerBG .layer .headerBottom {
+    align-items: center;
+  }
+  .headerBG .layer .headerBottom .center {
+    width: 80%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .maecenas {
+    flex-direction: column;
+  }
+  .maecenas .container {
+    width: 100%;
+  }
+
+  .fusce .fusceCards {
+    flex-direction: column;
+  }
+  .fusce .fusceCards .fusceCards1 {
+    width: 250px;
+  }
+  .fusce .fusceCards .fusceCards1 img {
+    max-width: 100%;
+  }
+  .fusce .btn button {
+    width: 150px;
+  }
+
+  .mauris {
+    margin: 50px 50px;
+  }
+  .mauris .maurisTitle {
+    text-align: center;
+  }
+  .mauris .cardS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mauris .cardS .card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .mauris .cardS .card .text h4 {
+    margin-top: 20px;
+  }
+  .mauris .cardS .card1 .text {
+    order: 1;
+  }
+
+  .aenean {
+    height: 500px;
+    text-align: center;
+  }
+  .aenean .layer2 h1 {
+    margin: 20px 20px;
+  }
+  .aenean .layer2 h2 {
+    margin: 0 20px;
+  }
+
+  .footerMain .footerin i {
+    margin: 0 20px;
+  }
+  .footerMain .footerout {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footerMain .footerout p {
+    margin: 5px;
+    display: block;
+  }
+  .footerMain .footerout .b1 {
+    border-right: none;
+  }
+  .footerMain .footerout .b2 {
+    border: none;
   }
 }
 body {
